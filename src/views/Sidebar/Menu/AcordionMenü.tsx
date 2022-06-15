@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+import React from "react"
+import { Accordion, AccordionTab } from "primereact/accordion"
+
+export const AccordionDemo = () => {
+  return (
+    <div className='accordion-demo'>
+      <div className='card' style={{ width: "300px" }}>
+        <h2>Kategoriler</h2>
+        <Accordion className='accordion-custom' activeIndex={0}>
+=======
 import React, { useState } from "react";
 import { Accordion, AccordionTab } from "primereact/accordion";
 
@@ -26,6 +37,7 @@ export const AccordionDemo = () => {
       <div className="card" style={{ width: "300px" }}>
         <h2>Kategoriler</h2>
         <Accordion className="accordion-custom" activeIndex={0}>
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
           <AccordionTab
             header={
               <React.Fragment>
@@ -59,5 +71,10 @@ export const AccordionDemo = () => {
         </Accordion>
       </div>
     </div>
+<<<<<<< HEAD
+  )
+}
+=======
   );
 };
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797

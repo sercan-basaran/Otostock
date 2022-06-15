@@ -5,6 +5,29 @@ function PanelMEnu() {
   let navigate = useNavigate()
   const items = [
     {
+<<<<<<< HEAD
+      label: "Ürün Ekle",
+      icon: "pi  pi-shopping-cart",
+      items: [
+        {
+          label: "Ekle",
+          icon: "pi  pi-plus",
+          command: () => {
+            navigate("management_new_product_add")
+          },
+        },
+        {
+          label: "Liste",
+          icon: "pi pi-list",
+          command: () => {
+            navigate("")
+          },
+        },
+      ],
+    },
+    {
+=======
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
       label: "Araç Tipi",
       icon: "pi pi-car",
       items: [
@@ -67,6 +90,8 @@ function PanelMEnu() {
         },
       ],
     },
+<<<<<<< HEAD
+=======
     {
       label: "Araç Yılı",
       icon: "pi pi-car",
@@ -88,6 +113,7 @@ function PanelMEnu() {
         },
       ],
     },
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
   ]
 
   return (

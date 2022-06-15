@@ -24,7 +24,11 @@ export function VehicleBrandList() {
   const OnEditBrand: any = (data: any) => {
     console.log("Tablodan gelen row datası ", data)
     const EditButton = () => {
+<<<<<<< HEAD
+      navigate("/management/add_vehicle_brand", {
+=======
       navigate("/yonetim/add_vehicle_brand", {
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
         state: { vechileBrandId: data.id },
       })
     }

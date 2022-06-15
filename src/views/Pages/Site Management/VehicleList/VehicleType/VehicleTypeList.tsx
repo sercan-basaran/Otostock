@@ -21,6 +21,8 @@ export function VehicleTypeList() {
       .catch((error) => console.log(error))
   }, [])
 
+<<<<<<< HEAD
+=======
   const vehiclesget = () => {
     return (
       <div>
@@ -30,6 +32,7 @@ export function VehicleTypeList() {
       </div>
     )
   }
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
   return (
     <div className='mt-1'>
       <h1>Araç Tipi</h1>

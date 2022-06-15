@@ -23,7 +23,11 @@ export function VehicleYearsList() {
 
   const EditOrDeleteButton: any = (data: any) => {
     const EditButton = () => {
+<<<<<<< HEAD
+      navigate("/management/add_vehicle_years", {
+=======
       navigate("/yonetim/add_vehicle_years", {
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
         state: { vehicleYearId: data.id },
       })
     }

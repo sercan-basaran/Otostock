@@ -7,7 +7,11 @@ import { useLocation, useNavigate } from "react-router-dom"
 
 export function VehicleBrand(props: any) {
   let location: any = useLocation()
+<<<<<<< HEAD
+  let navigate: any = useNavigate()
+=======
   let navigate = useNavigate()
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
 
   const [brandName, setBrandName]: any = useState()
   const [branId, setBrandId]: any = useState()
@@ -26,7 +30,11 @@ export function VehicleBrand(props: any) {
       })
     }
 
+<<<<<<< HEAD
+    navigate("/management/add_vehicle_brand")
+=======
     navigate("/yonetim/add_vehicle_brand")
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
   }
 
   const getBrand = async (id: any) => {

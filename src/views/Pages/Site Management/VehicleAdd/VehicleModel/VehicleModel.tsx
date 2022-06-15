@@ -30,7 +30,11 @@ export function VehicleModel() {
       })
     }
 
+<<<<<<< HEAD
+    navigate("/management/add_vehicle_model")
+=======
     navigate("/yonetim/add_vehicle_model")
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
   }
 
   const getModel = async (id: any) => {

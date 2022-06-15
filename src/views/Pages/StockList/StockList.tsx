@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+import { useState } from "react"
+import { DataTable } from "primereact/datatable"
+import { Column } from "primereact/column"
+import { Button } from "primereact/button"
+import { InputText } from "primereact/inputtext"
+=======
 import React, { useState } from "react"
 import { DataTable } from "primereact/datatable"
 import { Column } from "primereact/column"
@@ -6,22 +13,28 @@ import { Ripple } from "primereact/ripple"
 import { Dropdown } from "primereact/dropdown"
 import { InputText } from "primereact/inputtext"
 import { classNames } from "primereact/utils"
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
 import { InputNumber } from "primereact/inputnumber"
 import { DialogDemo } from "../Menu/Dialog"
 import Products from "./Products"
 
 const DataTablePaginatorDemo = () => {
+<<<<<<< HEAD
+=======
   const [first1, setFirst1] = useState(0)
 
   const [currentPage, setCurrentPage]: any = useState(1)
   const [pageInputTooltip, setPageInputTooltip] = useState(
     "Press 'Enter' key to go to this page."
   )
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
   const [multiSortMeta, setMultiSortMeta]: any = useState([
     { field: "category", order: -1 },
   ])
   const [selectedProducts, setSelectedProducts] = useState(null)
 
+<<<<<<< HEAD
+=======
   const onCustomPage1 = (event: any) => {
     setFirst1(event.first)
     setCurrentPage(event.page + 1)
@@ -47,12 +60,15 @@ const DataTablePaginatorDemo = () => {
     setCurrentPage(event.target.value)
   }
 
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
   const paginatorLeft = (
     <Button type='button' icon='pi pi-refresh' className='p-button-text' />
   )
   const paginatorRight = (
     <Button type='button' icon='pi pi-cloud' className='p-button-text' />
   )
+<<<<<<< HEAD
+=======
   const template1: any = {
     layout:
       "PrevPageLink PageLinks NextPageLink RowsPerPageDropdown CurrentPageReport",
@@ -144,6 +160,7 @@ const DataTablePaginatorDemo = () => {
       )
     },
   }
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
 
   const imageBodyTemplate = (rowData: any) => {
     return (
@@ -229,7 +246,10 @@ const DataTablePaginatorDemo = () => {
           paginator
           showGridlines
           stripedRows
+<<<<<<< HEAD
+=======
           onPage={onCustomPage1}
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
           sortMode='multiple'
           sortField='category'
           responsiveLayout='scroll'
@@ -241,7 +261,10 @@ const DataTablePaginatorDemo = () => {
           onSort={(e) => setMultiSortMeta(e.multiSortMeta)}
           editMode='cell'
           className='editable-cells-table'
+<<<<<<< HEAD
+=======
           first={first1}
+>>>>>>> 4e2650faf4db2b0e118486b2f3f4c143b028b797
           filterDisplay='row'
           paginatorTemplate='CurrentPageReport FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink RowsPerPageDropdown'
           currentPageReportTemplate='Showing {first} to {last} of {totalRecords}'
