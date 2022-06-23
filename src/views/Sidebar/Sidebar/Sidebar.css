@@ -1,0 +1,59 @@
+.button-demo .template .p-button.amazon {
+  background: linear-gradient(
+    to left,
+    var(--blue-400) 50%,
+    var(--blue-500) 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s ease-out;
+  color: #000;
+  border-color: var(--yellow-500);
+}
+.button-demo .template .p-button.amazon:hover {
+  background-position: left bottom;
+}
+.button-demo .template .p-button.amazon i {
+  background-color: var(--blue-500);
+}
+.button-demo .template .p-button.amazon:focus {
+  box-shadow: 0 0 0 1px var(--blue-200);
+}
+
+.multiselect-demo .p-multiselect {
+  min-width: 15rem;
+}
+
+.multiselect-demo
+  .multiselect-custom
+  .p-multiselect-label:not(.p-placeholder):not(.p-multiselect-items-label) {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.multiselect-demo .multiselect-custom .country-item-value {
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  display: inline-flex;
+  margin-right: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--primary-color-text);
+}
+
+.multiselect-demo .multiselect-custom .country-item-value img.flag {
+  width: 17px;
+}
+
+.accordion-demo .accordion-custom i,
+.accordion-demo .accordion-custom span {
+  vertical-align: middle;
+}
+
+.accordion-demo .accordion-custom span {
+  margin: 0 0.5rem;
+}
+
+.accordion-demo .p-accordion p {
+  line-height: 1.5;
+  margin: 0;
+}
